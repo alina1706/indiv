@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Vibur&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+         crossorigin="anonymous" />
+      <link rel="stylesheet" href="./assets/style.css" />
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   </head>
+   <body>
+      <header class="header">
+         <div class="header__container">
+            <div class="header__left">
+               <div class="header__logo">
+                  <img src="./assets/img/Logo.svg" alt="logo" />
+                  <div>Kurtis Classrom</div>
+               </div>
+            </div>
+
+            <div class="header__right">
+               <div class="header__select">
+                  <select name="" id="">
+                     <option value="">EN</option>
+                     <option value="">FR</option>
+                     <option value="">ES</option>
+                     <option value="">RU</option>
+                  </select>
+               </div>
+               <div class="header__buttons">
+                  <button class="button button--primary">Sign up</button>
+                  <button class="button button--outline">Log in</button>
+               </div>
+               <div class="header__burger">
+                  <span> <img src="./assets/img/Group 16.svg" alt=""></span>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main>
+         <section class="hero">
+            <div class="container">
+               <div class="row">
+                  <div class="col">
+                     <h1 class="hero__title">Make learning fun!</h1>
+                     <p class="hero__text">Any subject, in any language, on any device, for all ages!</p>
+                     <button class="hero__button button button--primary">Sign up for free</button>
+                     <div class="hero__apps">
+                        Or download the app:
+                        <br />
+                        <br />
+                        <div class="d-flex">
+                           <img src="./assets/img/appstore.png" alt="" />
+                           <img src="./assets/img/googleplay.png" alt="" />
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <img src="./assets/img/Miroodles Color Composition.png" alt="" />
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="features">
+            <div class="container">
+               <h2 class="features__title section-title section-title--underline">Who is Kurtis for?</h2>
+               <div class="features__items row">
+                  <div class="col">
+                     <div class="features__item">
+                        <div class="features__item-icon features__item-icon--blue"> <svg width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M13.1 0.93579L12.5 1.1615L11.9 0.93579C10.0984 0.250435 8.16447 -0.0647262 6.22549 0.0110294C4.28651 0.086785 2.38637 0.551741 0.65 1.37533L0 1.70795V21L1.8125 20.1447C3.22777 19.4772 4.77513 19.1004 6.35381 19.039C7.93248 18.9776 9.50706 19.2329 10.975 19.7883L12.5 20.3704L14.025 19.7883C15.4929 19.2329 17.0675 18.9776 18.6462 19.039C20.2249 19.1004 21.7722 19.4772 23.1875 20.1447L25 21V1.70795L24.3125 1.37533C22.5812 0.556907 20.6876 0.0947405 18.7556 0.019003C16.8235 -0.0567345 14.8964 0.255661 13.1 0.93579ZM6.85 16.6403C5.3718 16.6384 3.90295 16.863 2.5 17.3055V3.20474C5.20884 2.13576 8.24987 2.11445 10.975 3.14535L11.25 3.25226V17.353C9.82206 16.8855 8.32282 16.6446 6.8125 16.6403H6.85ZM22.5 17.3055C19.6611 16.4 16.5889 16.4 13.75 17.3055V3.25226L14.025 3.14535C16.7501 2.11445 19.7912 2.13576 22.5 3.20474V17.3055Z" fill="white"/>
+                           </svg>
+                           </div>
+                        <div class="features__item-title">At School</div>
+                        <div class="features__item-text">Engaging group and distance learning for teachers and students.</div>
+                        <a href="#" class="features__item-link">Learn more</a>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="features__item">
+                        <div class="features__item-icon features__item-icon--yellow"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M9.2625 13.75H12.2875C12.452 13.751 12.6151 13.7194 12.7674 13.6572C12.9197 13.595 13.0582 13.5034 13.175 13.3875L17.65 8.9125C17.8828 8.6783 18.0135 8.36148 18.0135 8.03125C18.0135 7.70102 17.8828 7.3842 17.65 7.15L14.625 4.15C14.3908 3.91719 14.074 3.78651 13.7437 3.78651C13.4135 3.78651 13.0967 3.91719 12.8625 4.15L8.3875 8.625C8.15198 8.85579 8.0172 9.17029 8.0125 9.5V12.5C8.0125 12.8315 8.1442 13.1495 8.37862 13.3839C8.61304 13.6183 8.93098 13.75 9.2625 13.75ZM10.5125 10L13.75 6.8L15 8.05L11.775 11.25H10.525L10.5125 10ZM23.75 15H22.5V2.5H23.75C24.0815 2.5 24.3995 2.3683 24.6339 2.13388C24.8683 1.89946 25 1.58152 25 1.25C25 0.918479 24.8683 0.600537 24.6339 0.366116C24.3995 0.131696 24.0815 0 23.75 0H1.25C0.918479 0 0.600537 0.131696 0.366116 0.366116C0.131696 0.600537 0 0.918479 0 1.25C0 1.58152 0.131696 1.89946 0.366116 2.13388C0.600537 2.3683 0.918479 2.5 1.25 2.5H2.5V15H1.25C0.918479 15 0.600537 15.1317 0.366116 15.3661C0.131696 15.6005 0 15.9185 0 16.25C0 16.5815 0.131696 16.8995 0.366116 17.1339C0.600537 17.3683 0.918479 17.5 1.25 17.5H11.25V18.9375L5.5625 22.6875C5.32917 22.8319 5.14985 23.0491 5.05221 23.3056C4.95457 23.5621 4.94404 23.8435 5.02224 24.1066C5.10044 24.3696 5.26303 24.5996 5.48492 24.7611C5.7068 24.9225 5.97566 25.0065 6.25 25C6.49575 25.0028 6.7362 24.9285 6.9375 24.7875L11.25 21.9375V23.75C11.25 24.0815 11.3817 24.3995 11.6161 24.6339C11.8505 24.8683 12.1685 25 12.5 25C12.8315 25 13.1495 24.8683 13.3839 24.6339C13.6183 24.3995 13.75 24.0815 13.75 23.75V21.9375L18.0625 24.7875C18.2638 24.9285 18.5042 25.0028 18.75 25C19.0171 24.9979 19.2764 24.9104 19.4901 24.7502C19.7038 24.59 19.8606 24.3656 19.9375 24.1098C20.0143 23.8541 20.0073 23.5804 19.9173 23.3289C19.8273 23.0775 19.6592 22.8614 19.4375 22.7125L13.75 18.9625V17.5H23.75C24.0815 17.5 24.3995 17.3683 24.6339 17.1339C24.8683 16.8995 25 16.5815 25 16.25C25 15.9185 24.8683 15.6005 24.6339 15.3661C24.3995 15.1317 24.0815 15 23.75 15ZM20 15H5V2.5H20V15Z" fill="white"/>
+                           </svg>
+                           </div>
+                        <div class="features__item-title">At work</div>
+                        <div class="features__item-text">For training, e-learning, interactive presentations and more.</div>
+                        <a href="#" class="features__item-link">Learn more</a>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="features__item">
+                        <div class="features__item-icon features__item-icon--lightblue"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M21.875 10.1563H21.0938V3.125C21.0938 2.9178 21.0114 2.71909 20.8649 2.57257C20.7184 2.42606 20.5197 2.34375 20.3125 2.34375H4.6875C4.4803 2.34375 4.28159 2.42606 4.13507 2.57257C3.98856 2.71909 3.90625 2.9178 3.90625 3.125V10.1563H3.125C2.9178 10.1563 2.71909 10.2386 2.57257 10.3851C2.42606 10.5316 2.34375 10.7303 2.34375 10.9375V20.3125C2.34375 20.5197 2.42606 20.7184 2.57257 20.8649C2.71909 21.0114 2.9178 21.0938 3.125 21.0938H4.6875V21.875C4.6875 22.0822 4.76981 22.2809 4.91632 22.4274C5.06284 22.5739 5.26155 22.6563 5.46875 22.6563C5.67595 22.6563 5.87466 22.5739 6.02118 22.4274C6.16769 22.2809 6.25 22.0822 6.25 21.875V21.0938H18.75V21.875C18.75 22.0822 18.8323 22.2809 18.9788 22.4274C19.1253 22.5739 19.3241 22.6563 19.5313 22.6563C19.7385 22.6563 19.9372 22.5739 20.0837 22.4274C20.2302 22.2809 20.3125 22.0822 20.3125 21.875V21.0938H21.875C22.0822 21.0938 22.2809 21.0114 22.4274 20.8649C22.5739 20.7184 22.6563 20.5197 22.6563 20.3125V10.9375C22.6563 10.7303 22.5739 10.5316 22.4274 10.3851C22.2809 10.2386 22.0822 10.1563 21.875 10.1563ZM5.46875 3.90625H19.5313V10.1563H17.9688C17.7616 10.1563 17.5628 10.2386 17.4163 10.3851C17.2698 10.5316 17.1875 10.7303 17.1875 10.9375V13.2813H7.8125V10.9375C7.8125 10.7303 7.73019 10.5316 7.58368 10.3851C7.43716 10.2386 7.23845 10.1563 7.03125 10.1563H5.46875V3.90625ZM7.8125 14.8438H17.1875V16.4063H7.8125V14.8438ZM21.0938 19.5313H3.90625V11.7188H6.25V17.1875C6.25 17.3947 6.33231 17.5934 6.47882 17.7399C6.62534 17.8864 6.82405 17.9688 7.03125 17.9688H17.9688C18.176 17.9688 18.3747 17.8864 18.5212 17.7399C18.6677 17.5934 18.75 17.3947 18.75 17.1875V11.7188H21.0938V19.5313Z" fill="white"/>
+                           </svg>
+                           </div>
+                        <div class="features__item-title">At home</div>
+                        <div class="features__item-text">Apps and games for family fun or home study.</div>
+                        <a href="#" class="features__item-link">Learn more</a>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="features__item">
+                        <div class="features__item-icon features__item-icon--red"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g clip-path="url(#clip0_1_54)">
+                           <path d="M12.5 1.5625C12.397 1.5625 12.2963 1.59305 12.2106 1.65028C12.125 1.70751 12.0582 1.78885 12.0188 1.88402C11.9794 1.97919 11.9691 2.08391 11.9892 2.18494C12.0093 2.28597 12.0589 2.37878 12.1317 2.45162C12.2046 2.52446 12.2974 2.57406 12.3984 2.59416C12.4994 2.61426 12.6041 2.60394 12.6993 2.56452C12.7945 2.5251 12.8758 2.45834 12.9331 2.37269C12.9903 2.28704 13.0208 2.18634 13.0208 2.08333C13.0208 1.9452 12.966 1.81272 12.8683 1.71505C12.7706 1.61737 12.6381 1.5625 12.5 1.5625ZM17.7083 0H7.29167C6.601 0 5.93862 0.274367 5.45024 0.762743C4.96187 1.25112 4.6875 1.9135 4.6875 2.60417V22.3958C4.6875 22.7378 4.75486 23.0765 4.88573 23.3924C5.0166 23.7084 5.20842 23.9954 5.45024 24.2373C5.69206 24.4791 5.97914 24.6709 6.2951 24.8018C6.61105 24.9326 6.94968 25 7.29167 25H17.7083C18.0503 25 18.389 24.9326 18.7049 24.8018C19.0209 24.6709 19.3079 24.4791 19.5498 24.2373C19.7916 23.9954 19.9834 23.7084 20.1143 23.3924C20.2451 23.0765 20.3125 22.7378 20.3125 22.3958V2.60417C20.3125 1.9135 20.0381 1.25112 19.5498 0.762743C19.0614 0.274367 18.399 0 17.7083 0V0ZM19.2708 22.3958C19.2708 22.8102 19.1062 23.2077 18.8132 23.5007C18.5202 23.7937 18.1227 23.9583 17.7083 23.9583H7.29167C6.87727 23.9583 6.47984 23.7937 6.18681 23.5007C5.89379 23.2077 5.72917 22.8102 5.72917 22.3958V18.75H19.2708V22.3958ZM19.2708 17.7083H5.72917V4.16667H19.2708V17.7083ZM19.2708 3.125H5.72917V2.60417C5.72917 2.18977 5.89379 1.79234 6.18681 1.49931C6.47984 1.20629 6.87727 1.04167 7.29167 1.04167H17.7083C18.1227 1.04167 18.5202 1.20629 18.8132 1.49931C19.1062 1.79234 19.2708 2.18977 19.2708 2.60417V3.125ZM12.5 22.9167C12.809 22.9167 13.1111 22.825 13.3681 22.6533C13.625 22.4816 13.8253 22.2376 13.9436 21.9521C14.0618 21.6666 14.0928 21.3524 14.0325 21.0493C13.9722 20.7462 13.8234 20.4678 13.6049 20.2493C13.3863 20.0308 13.1079 19.882 12.8048 19.8217C12.5017 19.7614 12.1876 19.7923 11.9021 19.9106C11.6165 20.0289 11.3725 20.2291 11.2008 20.4861C11.0291 20.743 10.9375 21.0451 10.9375 21.3542C10.9375 21.7686 11.1021 22.166 11.3951 22.459C11.6882 22.752 12.0856 22.9167 12.5 22.9167ZM12.5 20.8333C12.603 20.8333 12.7037 20.8639 12.7894 20.9211C12.875 20.9783 12.9418 21.0597 12.9812 21.1549C13.0206 21.25 13.0309 21.3547 13.0108 21.4558C12.9907 21.5568 12.9411 21.6496 12.8683 21.7225C12.7954 21.7953 12.7026 21.8449 12.6016 21.865C12.5006 21.8851 12.3959 21.8748 12.3007 21.8354C12.2055 21.7959 12.1242 21.7292 12.0669 21.6435C12.0097 21.5579 11.9792 21.4572 11.9792 21.3542C11.9792 21.216 12.034 21.0836 12.1317 20.9859C12.2294 20.8882 12.3619 20.8333 12.5 20.8333Z" fill="white"/>
+                           </g>
+                           <defs>
+                           <clipPath id="clip0_1_54">
+                           <rect width="25" height="25" fill="white"/>
+                           </clipPath>
+                           </defs>
+                           </svg>
+                           </div>
+                        <div class="features__item-title">Learning apps</div>
+                        <div class="features__item-text">Engage kids with the Kahoot! family of learning apps.</div>
+                        <a href="#" class="features__item-link">Learn more</a>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="text-center">
+                  <button class="button button--primary">SIGN UP NOW</button>
+               </div>
+            </div>
+         </section>
+         <section class="slides">
+            <h2 class="slides__title section-title section-title--underline">Amazing things are happening</h2>
+            <div class="slides__wrapper">
+               <div class="swiper" id="slides-swiper">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide"><img src="./assets/img/card-1.png" alt="" /></div>
+                     <div class="swiper-slide"><img src="./assets/img/card-2.png" alt="" /></div>
+                     <div class="swiper-slide"><img src="./assets/img/card-3.png" alt="" /></div>
+                     <div class="swiper-slide"><img src="./assets/img/card-2.png" alt="" /></div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+               </div>
+            </div>
+         </section>
+         <section class="code">
+            <h2 class="code__title section-title">Do you have a game code?</h2>
+            <p class="section-subtitle">Let’s play for a while!</p>
+
+            <div class="code__wrapper">
+               <div class="code__content">
+                  <h3 class="code__content-title">
+                     <img src="./assets/img/Logo-white.svg" alt="" />
+                     Kurtis Classroom
+                  </h3>
+                  <button class="code__content-button">Write the code here</button>
+                  <p class="code__content-text">Or try with 1234</p>
+               </div>
+            </div>
+            <div class="code__link text-center">
+               Still more?
+               <a href="#">Take a look to our features games</a>
+            </div>
+         </section>
+         <section class="how">
+            <div class="container">
+               <h2 class="how__title section-title section-title--underline">How does Kurtis work?</h2>
+               <div class="row gy-5 gx-5 justify-content-between">
+                  <div class="col-6">
+                     <div class="how__img">
+                        <img src="./assets/img/how-1.png" alt="" />
+                     </div>
+                  </div>
+                  <div class="col-6">
+                     <div class="how__content">
+                        <h3 class="how__content-title">Create</h3>
+                        <p class="how__content-text">It only takes minutes to create a learning game or trivia quiz on any topic, in any language.</p>
+                     </div>
+                  </div>
+
+                  <div class="col-6">
+                     <div class="how__content">
+                        <h3 class="how__content-title">Host or share</h3>
+                        <p class="how__content-text">Host a live game with questions on a big screen or share a game with remote players.</p>
+                     </div>
+                  </div>
+                  <div class="col-6">
+                     <div class="how__img">
+                        <img src="./assets/img/how-2.png" alt="" />
+                     </div>
+                  </div>
+
+                  <div class="col-6">
+                     <div class="how__img">
+                        <img src="./assets/img/how-3.png" alt="" />
+                     </div>
+                  </div>
+                  <div class="col-6">
+                     <div class="how__content">
+                        <h3 class="how__content-title">Play</h3>
+                        <p class="how__content-text">Game on! Join a kahoot with a PIN provided by the host and answer questions on your device.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="customers">
+            <h2 class="customers-title section-title section-title--underline">Our best customers</h2>
+
+            <div class="customers-slides">
+               <div class="swiper" id="customers-swiper">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="customers-card">
+                           <div class="row align-items-center">
+                              <div class="col">
+                                 <div class="customers-card__avatar">
+                                    <img src="./assets/img/Avator.png" alt="avatar" class="customers-card__avatar-img" />
+                                 </div>
+                              </div>
+                              <div class="col">
+                                 <div class="customers-card__content">
+                                    <h2 class="">Martha | Norwegian Air</h2>
+                                    <p class="">
+                                       Recusandae sunt voluptate repellat velit dolorem eos nostrum cupiditate. Labore porro cupiditate reiciendis
+                                       enim neque. Modi eos autem expedita voluptatibus dignissimos repellat.
+                                       <br />
+                                       <br />
+                                       Sit et aut minus quod vitae. Aut occaecati cupiditate neque dolore amet beatae quasi aliquam.
+                                    </p>
+                                    <img src="./assets/img/norwegian.png" alt="Norwegian Air logo" class="company-logo" />
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="customers-card">
+                           <div class="row align-items-center">
+                              <div class="col">
+                                 <div class="customers-card__avatar">
+                                    <img src="./assets/img/Avator.png" alt="avatar" class="customers-card__avatar-img" />
+                                 </div>
+                              </div>
+                              <div class="col">
+                                 <div class="customers-card__content">
+                                    <h2 class="">Martha | Norwegian Air</h2>
+                                    <p class="">
+                                       Recusandae sunt voluptate repellat velit dolorem eos nostrum cupiditate. Labore porro cupiditate reiciendis
+                                       enim neque. Modi eos autem expedita voluptatibus dignissimos repellat.
+                                       <br />
+                                       <br />
+                                       Sit et aut minus quod vitae. Aut occaecati cupiditate neque dolore amet beatae quasi aliquam.
+                                    </p>
+                                    <img src="./assets/img/norwegian.png" alt="Norwegian Air logo" class="company-logo" />
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="customers-card">
+                           <div class="row align-items-center">
+                              <div class="col">
+                                 <div class="customers-card__avatar">
+                                    <img src="./assets/img/Avator.png" alt="avatar" class="customers-card__avatar-img" />
+                                 </div>
+                              </div>
+                              <div class="col">
+                                 <div class="customers-card__content">
+                                    <h2 class="">Martha | Norwegian Air</h2>
+                                    <p class="">
+                                       Recusandae sunt voluptate repellat velit dolorem eos nostrum cupiditate. Labore porro cupiditate reiciendis
+                                       enim neque. Modi eos autem expedita voluptatibus dignissimos repellat.
+                                       <br />
+                                       <br />
+                                       Sit et aut minus quod vitae. Aut occaecati cupiditate neque dolore amet beatae quasi aliquam.
+                                    </p>
+                                    <img src="./assets/img/norwegian.png" alt="Norwegian Air logo" class="company-logo" />
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+               </div>
+            </div>
+         </section>
+         <section class="info">
+            <div class="container">
+               <div class="info-items">
+             
+                    
+                        <h2 class="info-items__text info-items__text--blue">More than 50% of US teachers use Kurtis</h2>
+                
+              
+                        <h2 class="info-items__text info-items__text--green">Players in more than 200 countries</h2>
+           
+                
+                        <h2 class="info-items__text info-items__text--red">Over 30 million public games available</h2>
+         
+              
+                        <h2 class="info-items__text info-items__text--yellow">97% of the Fortune 500 use Kurtis</h2>
+           
+               </div>
+               <div class="row gy-10">
+                  <div class="col">
+                     <img src="./assets/img/Miroodles Color Composition2.png" alt="" />
+                  </div>
+                  <div class="col">
+                     <h1 class="info__title">Ready for make learning fun!</h1>
+                     <button class="info__button button button--primary">Sign up for free</button>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__wrapper">
+               <div class="row">
+                  <div class="col-3">
+                     <div class="footer__content">
+                        <h3 class="footer__logo">
+                           <img src="./assets/img/Logo-white.svg" alt="" />
+                           Kurtis Classroom
+                        </h3>
+                        <div class="footer__apps">
+                           Get the app:
+                           <br />
+                           <br />
+                           <div class="footer__apps-items">
+                              <a href="#"><img src="./assets/img/appstore.png" alt="" /></a>
+                              <a href="#"><img src="./assets/img/googleplay.png" alt="" /></a>
+                              <a href="#"><img src="./assets/img/Old landing.png" alt="" /></a>
+                           </div>
+                        </div>
+                        <div class="footer__social">
+                           Follow us:
+                           <br />
+                           <br />
+                           <div class="footer__social-links">
+                              <a href="#">
+                                 <div class="circle-social-links"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.87924 2.31124C3.87924 3.2969 3.1373 4.08558 1.94597 4.08558H1.92411C0.777121 4.08558 0.0355606 3.2969 0.0355606 2.31124C0.0355606 1.30471 0.799673 0.538086 1.96846 0.538086C3.1373 0.538086 3.85706 1.30471 3.87924 2.31124ZM3.65416 5.48672V15.7522H0.237582V5.48672H3.65416ZM15.9756 15.7522L15.9758 9.8663C15.9758 6.71323 14.2902 5.24569 12.0419 5.24569C10.228 5.24569 9.41578 6.24204 8.96237 6.94101V5.48704H5.54535C5.59039 6.45028 5.54535 15.7525 5.54535 15.7525H8.96237V10.0194C8.96237 9.71258 8.98454 9.40654 9.07487 9.18686C9.32181 8.57395 9.88402 7.93937 10.8279 7.93937C12.0647 7.93937 12.5592 8.88069 12.5592 10.2602V15.7522H15.9756Z" fill="#46178F"/>
+                                    </svg>
+                                    </div>
+                                 
+                              </a>
+                              <a href="#">
+                                 <div class="circle-social-links"><svg width="10" height="19" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.10162 18.4517V10.3515H8.8674L9.28213 7.19463H6.10162V5.17909C6.10162 4.26518 6.35987 3.64231 7.69307 3.64231H9.39347V0.819648C8.57043 0.734047 7.74325 0.692587 6.91561 0.695451C4.46391 0.695451 2.78552 2.16653 2.78552 4.86829V7.19463H0.0127258V10.3515H2.78552V18.4517H6.10162Z" fill="#46178F"/>
+                                    </svg>
+                                    </div>
+                                 
+                              </a>
+                              <a href="#">
+                                 <div class="circle-social-links"><svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.4945 0.0224609H3.5072C2.07195 0.0224609 0.905655 1.18876 0.905655 2.62401V11.6099C0.905655 13.0452 2.07189 14.2131 3.5072 14.2131H12.4945C13.9282 14.2131 15.0962 13.0452 15.0962 11.6099V2.62401C15.0961 1.1887 13.9282 0.0224609 12.4945 0.0224609ZM8.00003 11.7887C5.42472 11.7887 3.3284 9.69234 3.3284 7.11702C3.3284 4.5417 5.42478 2.44539 8.00003 2.44539C10.577 2.44539 12.6717 4.5417 12.6717 7.11702C12.6717 9.69234 10.5753 11.7887 8.00003 11.7887ZM12.8226 3.41135C12.2124 3.41135 11.717 2.91619 11.717 2.30596C11.717 1.69719 12.2124 1.20039 12.8226 1.20039C13.4311 1.20039 13.9282 1.69719 13.9282 2.30596C13.9282 2.91619 13.4311 3.41135 12.8226 3.41135V3.41135Z" fill="#3A5AFF"/>
+                                    </svg>
+                                    
+                                    </div>
+                                
+                              </a>
+                              <a href="#">
+                                 <div class="circle-social-links"><svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.1967 1.83442C17.5506 2.1209 16.8556 2.31467 16.1268 2.4012C16.8709 1.95535 17.442 1.24989 17.7116 0.407904C17.0153 0.820969 16.2437 1.12062 15.4232 1.28214C14.7658 0.582053 13.8293 0.144531 12.7922 0.144531C10.8023 0.144531 9.18852 1.75836 9.18852 3.74817C9.18852 4.03062 9.2205 4.30555 9.28231 4.56946C6.28739 4.41923 3.6319 2.98465 1.8544 0.803769C1.54426 1.33589 1.36635 1.95535 1.36635 2.61566C1.36635 3.86561 2.00302 4.96909 2.96943 5.61516C2.37899 5.59661 1.82296 5.43456 1.33733 5.16393C1.33706 5.17925 1.33706 5.19457 1.33706 5.20962C1.33706 6.95567 2.57975 8.41201 4.22798 8.74284C3.92591 8.82561 3.6069 8.86942 3.27876 8.86942C3.04603 8.86942 2.82055 8.84711 2.60071 8.80519C3.05919 10.2365 4.38976 11.2785 5.96704 11.3078C4.73349 12.2745 3.17986 12.8504 1.49105 12.8504C1.2008 12.8504 0.913245 12.8334 0.631866 12.7999C2.22581 13.8227 4.12048 14.4191 6.15543 14.4191C12.7838 14.4191 16.4087 8.92801 16.4087 4.16553C16.4087 4.00939 16.4052 3.85378 16.3982 3.69952C17.1029 3.19159 17.7137 2.55708 18.1967 1.83442Z" fill="#46178F"/>
+                                    </svg>
+                                    </div>
+                                 
+                              </a>
+                              <a href="#">
+                                 <div class="circle-social-links"><svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.8384 7.09045V4.39947C12.5821 4.39947 11.6233 4.0631 11.0046 3.4093C10.3695 2.66315 10.0138 1.71823 9.99853 0.737278V0.543035L7.46221 0.481445C7.46221 0.481445 7.46221 0.590411 7.46221 0.737278V11.4112C7.37521 11.888 7.14444 12.3267 6.80104 12.6678C6.45765 13.0089 6.01818 13.2362 5.54195 13.3189C5.06573 13.4015 4.57568 13.3356 4.13796 13.1301C3.70025 12.9246 3.33594 12.5892 3.09423 12.1694C2.85252 11.7496 2.74504 11.2655 2.7863 10.7825C2.82755 10.2995 3.01557 9.8408 3.32495 9.46836C3.63433 9.09592 4.05019 8.82766 4.51639 8.69979C4.98258 8.57193 5.47666 8.59063 5.93192 8.75336V6.14766C5.66648 6.10403 5.39797 6.08185 5.12899 6.08133C4.16122 6.08133 3.21518 6.36919 2.4105 6.90851C1.60583 7.44783 0.978662 8.21438 0.608311 9.11124C0.23796 10.0081 0.141059 10.995 0.329863 11.9471C0.518666 12.8992 0.984693 13.7737 1.66901 14.4601C2.35333 15.1466 3.22521 15.614 4.17439 15.8034C5.12356 15.9928 6.10741 15.8956 7.00152 15.5241C7.89563 15.1526 8.65983 14.5235 9.1975 13.7164C9.73517 12.9092 10.0221 11.9603 10.0221 10.9895C10.0216 10.7884 10.009 10.5875 9.98436 10.3878V6.0529C11.1377 6.77537 12.4795 7.13659 13.8384 7.09045Z" fill="#46178F"/>
+                                    </svg>
+                                    
+                                   
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-2">
+                     <div class="footer__nav">
+                        <div class="footer__nav-title">About</div>
+                        <ul>
+                           <li><a href="#">Company</a></li>
+                           <li><a href="#">Leadership</a></li>
+                           <li><a href="#">Jobs - HIRING!</a></li>
+                           <li><a href="#">Pricing</a></li>
+                           <li><a href="#">Press</a></li>
+                           <li><a href="#">Investors</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-2">
+                     <div class="footer__nav">
+                        <div class="footer__nav-title">Solutions</div>
+                        <ul>
+                           <li><a href="#">At School</a></li>
+                           <li><a href="#">At Work</a></li>
+                           <li><a href="#">At Home</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-2">
+                     <div class="footer__nav">
+                        <div class="footer__nav-title">Resources</div>
+                        <ul>
+                           <li><a href="#">Study with Kurtis</a></li>
+                           <li><a href="#">Blog</a></li>
+                           <li><a href="#">Kurtis Certified</a></li>
+                           <li><a href="#">Help Center</a></li>
+                           <li><a href="#">Library</a></li>
+                           <li><a href="#">Shop</a></li>
+                           <li><a href="#">Safety center</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="footer__nav">
+                        <div class="footer__nav-title">Terms and conditions</div>
+                        <ul>
+                           <li><a href="#">Terms and Conditions</a></li>
+                           <li><a href="#">Privacy Policy</a></li>
+                           <li><a href="#">US Privacy Laws</a></li>
+                           <li><a href="#">Children’s Privacy Policy</a></li>
+                           <li><a href="#">Inclusion and Accessibility policy</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__copyright">Copyright @ 2020, Kurtis All rights reserved.</div>
+         </div>
+      </footer>
+   </body>
+
+   <script>
+      const swiper = new Swiper('#slides-swiper', {
+         direction: 'horizontal',
+         loop: true,
+         spaceBetween: 30,
+         slidesPerView: 3,
+         pagination: {
+            el: '.swiper-pagination',
+         },
+      });
+
+      const swiper2 = new Swiper('#customers-swiper', {
+         direction: 'horizontal',
+         loop: true,
+         spaceBetween: 30,
+         pagination: {
+            el: '.swiper-pagination',
+         },
+      });
+   </script>
+</html>
